@@ -21,10 +21,10 @@ pool:
 resources:
   repositories:
     - repository: mlops-templates  # Template Repo
-      name: Azure/mlops-templates # need to change org name from Azure when pulling the template
+      name: mlopsacceleratorsv2/mlops-templates # need to change org name from Azure when pulling the template
       endpoint: github-connection # need to set up and hardcode
       type: github
-      ref: main
+      ref: main-jul31
 
 stages:
 - stage: DeployTrainingPipeline
